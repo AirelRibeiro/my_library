@@ -29,7 +29,7 @@ export default function AboutUs() {
   ];
   return (
     <main className="relative h-screen bg-slate-200">
-      <div className=" bg-slate-200">
+      <div className=" bg-slate-200 ">
         <div className="max-w-5xl pt-28 pb-24 mx-auto">
           <h1 className="flex flex-col text-base font-black leading-none text-bl font-adm md:text-5xl dark:text-white animate-bounce text-center px-3 sm:px-0">
             Somos
@@ -37,7 +37,9 @@ export default function AboutUs() {
             Library Construction Experts
           </h1>
           <br />
-          <Text text={PARAGRAFOS[0]} />
+          <h2 className="text-base md:text-2xl px-5 font-4 font-semibold lh-6 ld-04 pb-11 text-gray-700 text-justify md:text-center ">
+            {PARAGRAFOS[0]}
+          </h2>
           <div className="ml-6 text-center">
             <a
               href="#"
@@ -55,7 +57,7 @@ export default function AboutUs() {
         </div>
       </div>
 
-      <div className="bg-gradient-to-b from-slate-200 via-slate-300 to-slate-200">
+      <div className="bg-gradient-to-b from-slate-200 via-slate-300 to-slate-200 px-5">
         <div className="max-w-5xl pt-0 md:pt-32 pb-24 mx-auto flex flex-col sm:flex-row justify-evenly items-center">
           <Text text={PARAGRAFOS[1]} />
           <div className="relative sm:block sm:w-1/3 lg:w-1/2">
@@ -71,7 +73,7 @@ export default function AboutUs() {
         </div>
       </div>
 
-      <div className="bg-slate-200">
+      <div className="bg-slate-200 px-5">
         <div className="max-w-5xl pt-0 md:pt-32 pb-24 mx-auto flex flex-col-reverse sm:flex-row items-center">
           <div className="relative sm:block sm:w-1/3 lg:w-1/2">
             <Image
@@ -87,7 +89,7 @@ export default function AboutUs() {
         </div>
       </div>
 
-      <div className="bg-gradient-to-b from-slate-200 via-slate-300 to-slate-200">
+      <div className="bg-gradient-to-b from-slate-200 via-slate-300 to-slate-200 px-5">
         <div className="max-w-5xl pt-0 md:pt-32 pb-24 mx-auto flex flex-col sm:flex-row items-center">
           <Text text={PARAGRAFOS[3]} />
           <div className="relative sm:block sm:w-5/12 lg:w-1/2">
@@ -103,7 +105,7 @@ export default function AboutUs() {
         </div>
       </div>
 
-      <div className="bg-slate-200">
+      <div className="bg-slate-200 px-5">
         <div className="max-w-5xl pt-0 md:pt-32 pb-24 mx-auto flex flex-col-reverse sm:flex-row items-center">
           <div className="relative sm:block sm:w-1/3 lg:w-1/2">
             <Image
