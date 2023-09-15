@@ -5,16 +5,16 @@ import { useState } from 'react';
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const navigation = [
-    { name: 'Início', href: '/random-users' },
+    { name: 'Início', href: '/' },
     { name: 'Quem Somos', href: '/quem-somos' },
-    { name: 'Nossos Serviços', href: '/random-dogs' },
-    { name: 'Contato', href: '/clients' },
+    { name: 'Nossos Serviços', href: '/' },
+    { name: 'Contato', href: '/' },
   ];
   return (
     <div className="relative">
       <header className="z-30 flex items-center w-full h-24 sm:h-32 bg-slate-950">
         <div className="container flex items-center justify-between px-6 mx-auto">
-          <div>
+          <div className="w-1/3 sm:w-fit">
             <Image
               className="py-6"
               src="https://github.com/AirelRibeiro/ada_1011_poo/assets/98190806/7cf0333c-b5b3-46d4-b5e5-4e3b2b2b5bc5"

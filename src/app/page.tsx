@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 export default function Home() {
   return (
-    <main className="relative h-screen overflow-hidden bg-slate-950 dark:bg-gray-800">
+    <main className="relative z-20 h-screen overflow-hidden bg-slate-950 dark:bg-gray-800">
       <div className="relative z-20 flex items-center overflow-hidden bg-slate-200  dark:bg-gray-800">
         <div className="container relative flex px-6 py-16 mx-auto">
           <div className="relative z-20 flex flex-col sm:w-2/3 lg:w-1/2 lg:pl-10 ">
