@@ -31,7 +31,7 @@ export default function AboutUs() {
     <main className="relative h-screen bg-slate-200">
       <div className=" bg-slate-200 ">
         <div className="max-w-5xl pt-28 pb-24 mx-auto">
-          <h1 className="flex flex-col text-base font-black leading-none text-bl font-adm md:text-5xl dark:text-white animate-bounce text-center px-3 sm:px-0">
+          <h1 className="flex flex-col text-base font-black leading-none text-bl font-adm md:text-5xl  animate-bounce text-center px-3 sm:px-0">
             Somos
             <br />
             Library Construction Experts
@@ -49,7 +49,7 @@ export default function AboutUs() {
             </a>
             <a
               href="#"
-              className="px-2 sm:px-5 py-1 sm:py-3 text-blue-900  bg-transparent border-2 border-blue-900 rounded-lg dark:text-white hover:bg-blue-900 hover:text-white text-xs sm:text-xl"
+              className="px-2 sm:px-5 py-1 sm:py-3 text-blue-900  bg-transparent border-2 border-blue-900 rounded-lg  hover:bg-blue-900 hover:text-white text-xs sm:text-xl"
             >
               Solicitar orçamento
             </a>

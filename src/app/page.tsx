@@ -4,8 +4,8 @@ export default function Home() {
   return (
     <main className="relative z-20 h-screen overflow-hidden bg-slate-200">
       <div className="relative z-20 flex items-center overflow-hidden bg-slate-200">
-        <div className="container relative flex px-6 py-16 mx-auto">
-          <div className="relative z-20 flex flex-col sm:w-2/3 lg:w-1/2 lg:pl-10 ">
+        <div className="container relative flex px-6 py-16 mx-auto bg-slate-200">
+          <div className="relative z-20 flex flex-col sm:w-2/3 lg:w-1/2 lg:pl-10 bg-slate-200">
             <h1 className="flex flex-col text-2xl font-black leading-none text-bl font-adm md:text-5xl text-gray-950 animate-bounce">
               Library Construction Experts
             </h1>
@@ -29,7 +29,7 @@ export default function Home() {
               </a>
             </div>
           </div>
-          <div className="relative hidden sm:block sm:w-1/3 lg:w-1/2">
+          <div className="relative hidden sm:block sm:w-1/3 lg:w-1/2 bg-slate-200">
             <Image
               src="https://github.com/AirelRibeiro/ada_1011_poo/assets/98190806/39fe0ee5-6123-46dc-baa5-e278122921e8"
               className="max-w-xs m-auto md:max-w-xl"
