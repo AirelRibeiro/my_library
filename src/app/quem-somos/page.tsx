@@ -6,7 +6,7 @@ export default function AboutUs() {
   const PARAGRAFOS = [
     `uma iniciativa formada por quatro bibliotecáries apaixonades, que
     compartilham a visão de que, no mundo atual, as bibliotecas
-    desempenham um papel crucial.`,
+    desempenham um papel crucial em informar, ampliar horizontes, ajudar e inspirar pessoas e a sociedade.`,
     `Acreditamos firmemente que, para cada leitor, há um livro especial
     aguardando sua descoberta. As bibliotecas são mais do que meros
     depósitos de livros; elas são portais para possibilidades e
