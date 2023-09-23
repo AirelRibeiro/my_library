@@ -30,9 +30,10 @@ Você pode contribuir com sua própria versão dessa aplicação. Sinta-se a von
 - Acesse o diretório: 
 ```cd projeto-nextts```
 - Rode o servidor de desenvolvimento (comando a depender do seu gerenciador de pacotes):
+  </br>
   ```npm run dev```
-  ### ou
+  ou
   ```yarn dev```
-  ### ou
+ ou
   ```pnpm dev```
 
