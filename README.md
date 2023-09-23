@@ -25,7 +25,7 @@ Você pode contribuir com sua própria versão dessa aplicação. Sinta-se a von
 - Crie um Pull Request no repositório original.
 
 ## Instalação e Uso
--Clone o repositório:
+- Clone o repositório:
  ```git clone https://github.com/seu-usuario/projeto-nextts.git```
 - Acesse o diretório: 
 ```cd projeto-nextts```
